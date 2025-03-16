@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Bremen,Germany"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "+4917856349099"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "contact@worldprism.com"
+  }
+]

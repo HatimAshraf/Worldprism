@@ -1,17 +1,25 @@
 @import 'tailwindcss';
 
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
+
+:root {
+  --bg-color: #202020;
+}
+
+html {
+  font-size: 62.5%;
+  /* font-family: 'Lato'; */
+  scroll-behavior: smooth;
+}
 
 body {
-  background-color: #1e2938;
+  background-color: black;
 }
-p,
-li,
-a,
+
 h1,
 h2,
 h3,
@@ -19,15 +27,6 @@ h4,
 h5 {
   color: #fff;
 }
-html {
-  font-family: 'Nunito', sans-serif;
-}
-
-/* 
-
-
-
-
 
 p,
 li,
@@ -68,7 +67,7 @@ button {
   background: #202020;
   color: #fff;
   border-radius: 1.5rem;
-
+  /*thisdoesn'twork*/
   border-width: 0.1rem;
   border-style: solid;
   -webkit-border-radius: 1.5rem;
@@ -78,7 +77,7 @@ button {
   margin-top: 1.6rem;
 }
 
----- Layout -----
+/* Layout  */
 
 .container {
   max-width: 140rem;
@@ -101,7 +100,7 @@ button {
   grid-template-columns: repeat(4, 1fr);
 }
 
----- Layout  -----
+/* Layout  */
 
 header {
   height: 10rem;
@@ -124,7 +123,7 @@ header {
 nav ul {
   display: flex;
   justify-content: flex-end;
-  
+  /* background-color: yellow; */
   gap: 3.2rem;
   color: #fff;
 
@@ -137,7 +136,7 @@ nav ul {
   display: none;
 }
 
-/* media queries  -----
+/* media queries  */
 @media screen and (max-width: 998px) {
   .menu-web {
     display: none;
@@ -172,7 +171,7 @@ nav ul {
   }
 }
 
-/* hero section  -----
+/* hero section  */
 
 .hero-section .container {
   padding: 3.2rem;
@@ -213,7 +212,7 @@ nav ul {
   }
 }
 
-/* About Section  
+/* About Section  */
 
 .section-about {
   margin: 0 auto 9rem auto;
@@ -312,7 +311,7 @@ nav ul {
   max-width: 470px;
 }
 
-/* footer CSS  
+/* footer CSS  */
 
 .footer-contact {
   height: 10rem;
@@ -390,7 +389,7 @@ ul {
 
 /* --------------- 
 country Card 
------------------- 
+------------------ */
 
 .country-card {
   margin-top: 3.2rem;
@@ -410,7 +409,7 @@ country Card
   }
 }
 
-/* indivisual card container  
+/* indivisual card container  */
 .country-details-card {
   max-width: 100%;
   margin: 6.4rem auto;
@@ -509,7 +508,7 @@ country Card
 
 /* ------------------ 
 contact us page 
---------------- 
+--------------- */
 
 .section-contact {
   margin: 9.6rem auto;
@@ -549,7 +548,7 @@ contact us page
 
 /* ----------------
 contact us Page ends here 
---------------------- 
+--------------------- */
 
 @media screen and (max-width: 1320px) {
   .grid-four-cols {
@@ -575,8 +574,8 @@ contact us Page ends here
   }
 }
 
-/* //Loader  
-/* HTML: <div class="loader"></div> 
+/* //Loader  */
+/* HTML: <div class="loader"></div> */
 .loader {
   width: 50px;
   padding: 8px;
@@ -601,4 +600,4 @@ contact us Page ends here
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
